@@ -1,0 +1,78 @@
+/*Estilos da pagina index.html*/
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*colocamos menu como id para q nao haja futuros conflitos, para entender q é sobre este menu*/
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+/*hover: qndo o mouse estiver emcima*/
+
+#menu li a:hover {
+    color: cadetblue;
+}
+
+
+/*afastar texto da imagem*/
+
+.p-30 {
+    padding: 30px;
+}
+
+
+/*deixar a imagem redonda*/
+
+.br-50 {
+    border-radius: 50%;
+}
+
+
+/*a imagem nao sendo um quadrado perfeito, ela ficara estranha, utilizamos esta class para arredondar a imagem*/
+
+.wh-300 {
+    width: 300px;
+    height: 300px;
+}
+
+
+/*tamanho dos logos social*/
+
+.tm-social {
+    width: 50px;
+    height: 50ps;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+
+/*Estilos da pagina contato.html*/
+
+.ml-50 {
+    margin-left: 50px;
+}
