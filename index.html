@@ -5,31 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+    <!--Referenciando estilo no html-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /*Com o class vc pode chamar em outras tags,
+        o id vc pode utilizar somente eum uma tag,
+        vc ate poderia colocar varios ids mas isso iria bugar o seu programa*/
+        
+        .p1 {
+            font-size: 16px;
+        }
+        
+        .p2 {
+            font-size: 30px;
+        }
+    </style>
 </head>
 
 <body>
     <!--lista completa-->
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
-    </ul>
-    <ul>
+
         <li>
             <a href="contato.html">Contato</a>
         </li>
     </ul>
 
-    <h1>Sobre a Camila!</h1>
-    <p>
-        Meu nome é Camila, tenho 24 anos, sou graduada em Serviço Social e atualmente estou em transição de carreira. Sou estudante da Generation Brasil!
-    </p>
+    <h1 class="center">Sobre a Camila</h1>
 
-    <img src="assets/img/pp.jpg" alt="foto do criador desse conteudo">
+    <div class="container">
 
-    <h2>Meu vídeo favorito!</h2>
-    <p>Gosto de codar escutando música!</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/F6j49uzPugA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="p-30">
+            <p class="justify" class="p1">
+                Meu nome é Camila, tenho 24 anos, sou graduada em Serviço Social e atualmente estou em transição de carreira. Sou estudante da Generation Brasil!
+            </p>
+
+        </div>
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/pp.jpg" alt="foto do criador desse conteudo">
+        </div>
+
+    </div>
+    <h2 class="center">Meu vídeo favorito!</h2>
+    <p class="p2">Gosto de codar escutando música!</p>
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/F6j49uzPugA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!--separação de sessao-->
+    <hr>
+
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+            <a href="http://linkedin.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            <a href="http://instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+
+
+        </div>
+        <p class="center">
+            Todos os direitos reservados para Camila Andrade &copy
+        </p>
+    </footer>
 </body>
 
 </html>
